@@ -34,7 +34,7 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 👥 **Main Channel:** [CW Botz](https://telegram.me/Cw_Botz)
 
-📢 **Updates Channel:** [Hacking Craze](https://telegram.me/CW_Botz)
+📢 **Updates Channel:** [Earning Channel](https://telegram.me/Earning_passion)
 """
 	ABOUT_DEV_TEXT = f"""__
 🧑🏻‍💻 **Developer:** @MrKRNBolte
