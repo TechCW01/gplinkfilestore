@@ -50,6 +50,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
+
         long_URL = f"https://telegram.me/{Config.BOT_USERNAME}?start=CWBotz_{str_to_b64(str(SaveMessage.id))}"
         URL = f"https://gplinks.in/api?api=6f966881b66e7fb906b6c2ab94faf28af72bb261&url={long_URL}"
         r = requests.get(url = URL)
@@ -92,7 +93,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         await forwarded_msg.reply_text(
             f"#PRIVATE_FILE:\n\n[{message.from_user.first_name}](tg://user?id={message.from_user.id}) Got File Link!",
             disable_web_page_preview=True)
-        long_URL = f"https://telegram.me/{Config.BOT_USERNAME}?start=CW_Botz_{str_to_b64(file_er_id)}"
+        long_URL = f"https://telegram.me/{Config.BOT_USERNAME}?start=CWBotz_{str_to_b64(file_er_id)}"
         URL = f"https://gplinks.in/api?api=6f966881b66e7fb906b6c2ab94faf28af72bb261&url={long_URL}"
         r = requests.get(url = URL)
         data = r.json()
